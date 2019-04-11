@@ -150,6 +150,16 @@ class Simulator: SKScene
            // pow((particle2.position.y - particle1.position.y), 2))))
     }
     
+ /* func getStoppingDistance(CGFloat reaction, CGFloat velocity) -> CGFloat
+	{
+		
+	return (velocity*reaction + (velocity^2)/(2.0*0.7*9.81))
+
+	} 
+*/
+
+
+ 
     func dotProd(particle1: SKShapeNode, particle2: SKShapeNode) -> CGFloat
     {
         return (particle1.position.x * particle2.position.x) + (particle1.position.y * particle2.position.y)
